@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regresion]">
+  <test thread-count="5" name="InputFormTest(failed)">
+    <parameter name="Email" value="John@gmail.com"/>
+    <parameter name="Address" value="123 john road"/>
+    <parameter name="FirstName" value="John"/>
+    <parameter name="Phone" value="123456789"/>
+    <parameter name="State" value="Uttar Pradesh"/>
+    <parameter name="LastName" value="Brady"/>
+    <parameter name="City" value="Lucknow"/>
+    <parameter name="Subject" value="Computers"/>
+    <classes>
+      <class name="test.InputFormTest">
+        <methods>
+          <include name="usershouldabletofilloutform" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.InputFormTest -->
+    </classes>
+  </test> <!-- InputFormTest(failed) -->
+</suite> <!-- Failed suite [Regresion] -->

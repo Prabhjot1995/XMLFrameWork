@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Regression">
+
+	<test name="LoginTest">
+
+		<parameter name="FirstName" value="demo@techfios.com" />
+		<parameter name="LastName" value="abc123" />
+		<parameter name="Account Name" value="Savings" />
+		<parameter name="Description" value="Johns savings Account" />
+		<parameter name="Balance" value="50000" />
+		<parameter name="Account Num" value="123456789" />
+		<parameter name="Contact" value="James Harden" />
+		<parameter name="Phone" value="123123123" />
+		<parameter name="Url" value="google.com" />
+		<classes>
+			<class name="test.LoginTest" />
+			<class name="test.DashBoardTest" />
+			<class name="test.AddCustomerTest"/>
+
+		</classes>
+
+	</test>
+
+</suite>
